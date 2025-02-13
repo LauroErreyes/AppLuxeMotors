@@ -25,7 +25,7 @@ export class UsersService {
 
     await createdUser.save();
 
-    const verificationUrl = `http://localhost:3000/users/verify/${verificationToken}`;
+    const verificationUrl = `https://appluxemotors-production.up.railway.app/users/verify/${verificationToken}`;
 
     return {
       message: 'Usuario creado. El cliente debe enviar el correo de verificación.',
