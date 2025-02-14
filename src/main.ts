@@ -9,7 +9,8 @@ async function bootstrap() {
   app.enableCors({
     origin: [
       'http://localhost:4200',  // URL de desarrollo de Angular
-      'https://tu-app-angular.com', // URL de producción de Angular (reemplazar con tu dominio real)
+      'http://localhost:8100', // URL de producción de Angular (reemplazar con tu dominio real)
+      'https://appconcesionaria.netlify.app'
       // Agrega más orígenes permitidos según necesites
     ],
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS', 'HEAD'],
