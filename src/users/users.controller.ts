@@ -49,7 +49,7 @@ export class UsersController {
       throw new NotFoundException('Token inválido o expirado');
     }
 
-    res.redirect('https://appluxemotors-production.up.railway.app/verificacion'); // ✅ Redirección correcta
+    res.redirect('https://appconcesionaria.netlify.app/verificacion'); // ✅ Redirección correcta
   }
 
 

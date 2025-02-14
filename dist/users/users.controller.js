@@ -38,7 +38,7 @@ let UsersController = class UsersController {
         if (!user) {
             throw new common_1.NotFoundException('Token inválido o expirado');
         }
-        res.redirect('http://localhost:4200/verificacion');
+        res.redirect('hhttps://appconcesionaria.netlify.app/verificacion');
     }
     update(id, createUserDto) {
         return this.usersService.update(id, createUserDto);
